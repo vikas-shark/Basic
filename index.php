@@ -1,2 +1,6 @@
 <?php 
-echo "Welcome Vikas Singhal"; ?>
+include('controller/controller.php');
+include('model/model.php');
+include('view/view.php');
+
+?>
