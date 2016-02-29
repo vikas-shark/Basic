@@ -12,8 +12,7 @@ include('model/model.php');
  	    	$userName = $_POST['username'];
  	    	$password =  $_POST['password'];
  	    } else {
- 	    	$userName='Guest';
- 	    }
+ 	    	$userName='Guest'; 	    }
  	    
  		include('view/header.html');
  		include('view/content.html');
